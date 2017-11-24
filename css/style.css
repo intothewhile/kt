@@ -20,10 +20,10 @@ html {
 
 body {
   background: #ffffff;
-  color: #73767c;
+  color: #ea0b37;
   line-height: 1.7;
   font-size: 16px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 ::-moz-selection {
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, p, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #1a57a5;
+  color: #ea0b37;
 }
 
 a:hover, a:focus, a:active {
@@ -261,9 +261,8 @@ a:hover, a:focus, a:active {
 
 .probootstrap-navbar .navbar-brand {
   text-transform: uppercase;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ffffff;
-  font-size: 26px;
   font-weight: 700;
   padding-left: 15px;
 }
@@ -274,14 +273,14 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width: 768px) {
   .probootstrap-navbar .navbar-brand {
-    color: #1a57a5;
+    color: #ea0b37;
     line-height: 0;
     padding-left: 0px;
   }
 }
 
 .probootstrap-navbar .navbar-brand em {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .probootstrap-navbar .navbar-nav > li > a {
@@ -362,7 +361,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav.active > a {
-  color: #1a57a5 !important;
+  color: #ea0b37 !important;
 }
 
 .probootstrap-navbar .dropdown-submenu {
@@ -450,7 +449,7 @@ a:hover, a:focus, a:active {
 
 .probootstrap-navbar.scrolled .navbar-brand {
   top: 30px;
-  color: #1a57a5;
+  color: #ea0b37;
 }
 
 .probootstrap-navbar.scrolled .dropdown > a:before {
@@ -466,12 +465,12 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-  color: #1a57a5 !important;
+  color: #ea0b37 !important;
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-    color: #1a57a5 !important;
+    color: #ea0b37 !important;
   }
 }
 
@@ -549,7 +548,7 @@ a:hover, a:focus, a:active {
   padding: 20px 40px;
   border-radius: 0;
   margin-right: 10px;
-  border: 2px solid #1a57a5;
+  border: 2px solid #ea0b37;
 }
 
 .probootstrap-hero .intro-text .probootstrap-subheading .btn:hover {
@@ -591,7 +590,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-cta {
-  background: #1a57a5;
+  background: #ea0b37;
   color: #ffffff;
   padding: 3em 0;
 }
@@ -612,16 +611,16 @@ a:hover, a:focus, a:active {
 .probootstrap-footer {
   padding: 3em 0;
   position: relative;
-  background: #1a57a5;
+  background: #ea0b37;
   color: #ffffff;
 }
 
 .probootstrap-footer a {
-  color: rgba(255, 255, 255, 0.4);
+  color: yellow;
 }
 
 .probootstrap-footer a:hover {
-  color: white;
+  text-decoration: underline;
 }
 
 .probootstrap-section-heading .probootstrap-heading {
@@ -637,7 +636,7 @@ a:hover, a:focus, a:active {
   bottom: 0;
   width: 70px;
   height: 2px;
-  background: #1a57a5;
+  background: #ea0b37;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -694,7 +693,7 @@ a:hover, a:focus, a:active {
 .probootstrap-pricing .probootstrap-price strong {
   font-size: 62px;
   font-weight: 300;
-  color: #1a57a5;
+  color: #ea0b37;
 }
 
 @media screen and (max-width: 768px) {
@@ -752,7 +751,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-list li.probootstrap-check:before {
-  color: #1a57a5;
+  color: #ea0b37;
   font-size: 16px;
   content: "\eb91";
 }
@@ -776,7 +775,7 @@ a:hover, a:focus, a:active {
   position: absolute;
   top: .2em;
   left: 0;
-  color: #1a57a5;
+  color: #ea0b37;
   font-size: 20px;
   content: "\eb91";
 }
@@ -788,7 +787,7 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
-  background: #1a57a5;
+  background: #ea0b37;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
@@ -822,12 +821,12 @@ a:hover, a:focus, a:active {
   display: block;
   font-size: 70px;
   margin-bottom: 50px;
-  color: #1a57a5;
+  color: #ea0b37;
 }
 
 .probootstrap-service-item h2 {
   font-size: 24px;
-  color: #1a57a5;
+  color: #ea0b37;
 }
 
 .probootstrap-testimonial {
@@ -899,7 +898,7 @@ a:hover, a:focus, a:active {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 1px solid #1a57a5;
+  border: 1px solid #ea0b37;
 }
 
 .probootstrap-form .form-group:last-child {
@@ -1192,7 +1191,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-primary {
-  color: #1a57a5 !important;
+  color: #ea0b37 !important;
 }
 
 @media screen and (max-width: 768px) {
